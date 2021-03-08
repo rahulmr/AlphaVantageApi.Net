@@ -1,6 +1,6 @@
 ﻿using AlphaVantageApi.Net.Domain.Enums;
 
-namespace AlphaVantageApi.Net.Domain.Entities.Requests
+namespace AlphaVantageApi.Net.Domain.Entities
 {
     public abstract class RequestModelBase
     {

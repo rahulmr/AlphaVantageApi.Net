@@ -1,6 +1,6 @@
 ﻿using AlphaVantageApi.Net.Domain.Enums;
 
-namespace AlphaVantageApi.Net.Domain.Entities.Requests.StockTimeSeriesRequests
+namespace AlphaVantageApi.Net.Domain.Entities.StockTimeSeries.Requests
 {
     public class TimeSeriesMonthlyRequest : RequestModelBase
     {

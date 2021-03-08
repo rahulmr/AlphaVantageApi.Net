@@ -1,7 +1,7 @@
 ﻿using AlphaVantageApi.Net.Domain.Enums;
 using System;
 
-namespace AlphaVantageApi.Net.Domain.Entities.Requests.FundamentalDataRequests
+namespace AlphaVantageApi.Net.Domain.Entities.FundamentalData.Requests
 {
     public class ListingStatusRequest : RequestModelBase
     {

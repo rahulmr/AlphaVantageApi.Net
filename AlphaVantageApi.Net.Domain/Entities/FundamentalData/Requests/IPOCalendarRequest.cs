@@ -1,6 +1,6 @@
 ﻿using AlphaVantageApi.Net.Domain.Enums;
 
-namespace AlphaVantageApi.Net.Domain.Entities.Requests.FundamentalDataRequests
+namespace AlphaVantageApi.Net.Domain.Entities.FundamentalData.Requests
 {
     public class IPOCalendarRequest : RequestModelBase
     {

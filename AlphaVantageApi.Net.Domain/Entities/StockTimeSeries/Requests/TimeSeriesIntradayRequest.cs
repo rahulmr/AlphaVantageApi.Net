@@ -1,14 +1,14 @@
 ﻿using AlphaVantageApi.Net.Domain.Enums;
 
-namespace AlphaVantageApi.Net.Domain.Entities.Requests.StockTimeSeriesRequests
+namespace AlphaVantageApi.Net.Domain.Entities.StockTimeSeries.Requests
 {
     public class TimeSeriesIntradayRequest : RequestModelBase
     {
-        public string Symbol { get; set; }
-        public Interval Interval { get; set; }
-        public bool Adjusted { get; set; }
-        public OutputSize OutputSize { get; set; }
-        public DataType DataType { get; set; }
+        public string Symbol { get; }
+        public Interval Interval { get; }
+        public bool Adjusted { get; }
+        public OutputSize OutputSize { get; }
+        public DataType DataType { get; }
 
         public TimeSeriesIntradayRequest(string symbol, Interval interval, 
             bool adjusted = true, OutputSize outputSize = OutputSize.Compact, DataType dataType = DataType.Json)
